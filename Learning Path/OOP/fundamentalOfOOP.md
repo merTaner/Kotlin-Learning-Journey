@@ -7,7 +7,8 @@ init {}
 
 ### Encapsulation 
     - if we want access to object fields we use to encapsulation. 
-    - getter and setter method 
+    - getter and setter method
+
 example : 
 var name : String? = name
     private set
@@ -17,6 +18,7 @@ this means we can't change the name but we can only see the name
 ### Inheritance
     - If we want to inherit a class from another class, 
     - we must prefix the name of the inheritance class with open
+
 example:
 class SpecialArtist(name: String, age: Int, job: String) : Artist(name, age, job) {}
 
@@ -27,6 +29,7 @@ class SpecialArtist(name: String, age: Int, job: String) : Artist(name, age, job
 ### Abstraction
     - Abstract class is cannot a create new object from itself
     - so, why use to abstract class ?
+
 example:
 Imagine we have many different class : artist, nurses, doctors ..
 We know that all of this class is human. So if we want any change about humanity
